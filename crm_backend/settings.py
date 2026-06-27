@@ -8,7 +8,7 @@ load_dotenv(BASE_DIR / '.env')   # optional, for local dev
 # ========== SECURITY ==========
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-change-me')
 DEBUG = False   # Must be False on PythonAnywhere
-ALLOWED_HOSTS = ['<YOUR_USERNAME>.pythonanywhere.com']  # <--- CHANGE THIS
+ALLOWED_HOSTS = ['jaffermakki.pythonanywhere.com']  # <--- CHANGE THIS
 
 # ========== INSTALLED APPS ==========
 INSTALLED_APPS = [
